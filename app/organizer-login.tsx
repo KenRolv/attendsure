@@ -68,7 +68,7 @@ export default function InstructorLoginScreen() {
 
         <TouchableOpacity
           style={styles.btnPrimary}
-          onPress={() => router.push("/home")}   // ✅ Correct place
+          onPress={() => router.push("/organizer-home")}   // ✅ Correct place
         >
           <Text style={styles.btnText}>Login</Text>
           <Ionicons name="arrow-forward" size={20} color="#fff" />

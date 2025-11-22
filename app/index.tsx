@@ -37,7 +37,7 @@ export default function WelcomeScreen() {
 
         <TouchableOpacity
           style={styles.btnOutline}
-          onPress={() => router.push("/instructor-login")} // ✅ go to Instructor Login
+          onPress={() => router.push("/organizer-login")} 
         >
           <View style={styles.btnContent}>
             <View style={styles.btnIconWrapperOutline}>

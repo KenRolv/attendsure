@@ -81,7 +81,7 @@ export default function OrganizerHome() {
         <Text style={styles.quickTitle}>Quick Actions</Text>
 
         <TouchableOpacity style={styles.btnPrimary}>
-          <Ionicons name="qr-code-outline" size={22} color="#fff" />
+          <Ionicons name="time-outline" size={20} color="#fff" />
           <Text style={styles.btnText}>Scan QR Code</Text>
           <Ionicons name="chevron-forward" size={18} color="#fff" style={styles.btnChevron} />
         </TouchableOpacity>
