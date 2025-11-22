@@ -82,13 +82,13 @@ export default function OrganizerHome() {
 
         <TouchableOpacity style={styles.btnPrimary}>
           <Ionicons name="time-outline" size={20} color="#fff" />
-          <Text style={styles.btnText}>View Event History</Text>
+          <Text style={styles.btnText}>Scan QR Code</Text>
           <Ionicons name="chevron-forward" size={18} color="#fff" style={styles.btnChevron} />
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.btnSecondary}>
           <Ionicons name="list-outline" size={20} color="#0A8A84" />
-          <Text style={styles.btnSecondaryText}>View Attendance</Text>
+          <Text style={styles.btnSecondaryText}>Check Event</Text>
           <Ionicons name="chevron-forward" size={18} color="#0A8A84" style={styles.btnChevron} />
         </TouchableOpacity>
       </View>
