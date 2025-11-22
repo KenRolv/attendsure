@@ -18,7 +18,7 @@ export default function OrganizerHome() {
       {/* HEADER */}
       <View style={styles.header}>
         <Text style={styles.headerTitle}>ATTENDSURE</Text>
-        <Text style={styles.headerSubtitle}>Welcome back, Organizer</Text>
+        <Text style={styles.headerSubtitle}>Welcome back, Student</Text>
       </View>
 
       {/* EVENT CARD */}
