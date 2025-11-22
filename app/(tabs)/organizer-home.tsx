@@ -86,10 +86,18 @@ export default function OrganizerHome() {
         <Ionicons name="chevron-forward" size={18} color="#0A8A84" style={styles.btnChevron} />
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.btnSecondary}>
-        <Ionicons name="settings-outline" size={22} color="#0A8A84" />
+      <TouchableOpacity
+        style={styles.btnSecondary}
+        onPress={() => router.push("/ManageEventScreen")}
+        >
+        <Ionicons name="create-outline" size={20} color="#0A8A84" />
         <Text style={styles.btnSecondaryText}>Manage Event</Text>
-        <Ionicons name="chevron-forward" size={18} color="#0A8A84" style={styles.btnChevron} />
+        <Ionicons
+          name="chevron-forward"
+          size={18}
+          color="#0A8A84"
+          style={styles.btnChevron}
+        />
       </TouchableOpacity>
     </ScrollView>
   );
